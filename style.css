@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+img {
+    width: 20%;
+    height: 40%;
+    border-radius: 50%;
+}
+
+hr {
+    height: 6px;
+    background-color: #FAFAFA;
+    width: 200px;
+    margin: 8px auto;
+}
+
+h1 {
+    text-shadow: 2px 3px black;
+}
+
+h2 {
+    text-shadow: 2px 3px black;
+}
+
+p {
+    text-shadow: 2px 1px black;
+}
+
+h3 {
+    text-shadow: 2px 1px black;
+}
+
+.menu {
+    background-color: rgb(142, 142, 142);
+    text-align:center;
+    text-decoration:none;
+    list-style: none;
+    cursor: pointer;
+    position: fixed;
+    padding: 10px;
+    float: right;
+    margin-right: 20px;
+
+}
+
+.link {
+    float: left;
+    color: white;
+    padding-top: 5px;
+    padding-left: -10px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 16px;
+}
+
+.link:hover {
+    background:white ;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    color:white;
+}
+
+.section1 {
+    background: rgb(142, 142, 142);
+}
+
+.section2 {
+    background: purple;
+}
+
+#Favorite {
+    background: rgb(142, 142, 142);;
+}
+
+#Videos {
+    background: purple;
+}
+
+#Articles {
+    background: rgb(142, 142, 142);;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img{
+    transition:transform .2s;
+}
+img:hover{
+    transform:scale(0.9);
+    border-color:darkblue;
+    border-width:5px;
+    border-style:dotted;
+}
+#Contact{
+    background: purple;
+}
+a{
+    text-decoration:none;
+}
